@@ -1,0 +1,50 @@
+h1{
+  text-align: center;
+}
+body {
+  background: black;
+  color: white;
+}
+p{
+  font-size: 20px;
+}
+
+.dpreview, .canonwatch, .canonrumors{
+  width: 31%;
+float: left;
+  background: #2ABBF5;
+  margin: 5px;
+  padding: 10px;
+  border-radius: 16px;
+}
+
+a {
+  border: solid;
+padding: 10px;
+margin: 10px;
+text-decoration: none;
+    background: gray;
+    color: black;
+}
+
+a:hover{
+
+  background: white;
+}
+
+ul{
+  line-height: 300%;
+list-style:none;
+    padding-left:0;
+}
+li{
+   padding: 0;
+   margin: 0;
+   white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+li:hover{
+  overflow: visible;
+  white-space: normal;
+}
